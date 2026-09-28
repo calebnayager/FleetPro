@@ -56,4 +56,4 @@ The process provides a method of recording maintenance information, but the inve
 
 The following swimlane diagram illustrates the current vehicle maintenance process and shows the responsibilities of the stakeholders involved in the process.
 
-![FleetPro As-Is Process Swimlane Diagram](diagrams/As_is_process.png)
+![FleetPro As-Is Process Swimlane Diagram](Diagrams/As_is_process.png)

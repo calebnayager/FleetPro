@@ -111,4 +111,4 @@ The proposed To-Be process addresses the business requirements identified during
 
 The following swimlane diagram illustrates the proposed future vehicle maintenance process and shows the responsibilities of the stakeholders involved.
 
-![FleetPro To-Be Process Swimlane Diagram](diagrams/To_be_process.png)
+![FleetPro To-Be Process Swimlane Diagram](Diagrams/To_be_process.png)
