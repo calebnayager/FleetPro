@@ -19,7 +19,7 @@ identified during the investigation into categories and identify
 relationships between the factors affecting the maintenance-recording
 process.
 
-![FleetPro Fishbone Root Cause Analysis](diagrams/Fishbone_Diagram.png)
+![FleetPro Fishbone Root Cause Analysis](Diagrams/Fishbone_Diagram.png)
 
 ## 4. Root Cause
 
