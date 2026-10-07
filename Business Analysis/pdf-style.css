@@ -1,0 +1,68 @@
+/* =========================================
+   FleetPro Logistics
+   Business Analysis PDF Styling
+   ========================================= */
+
+/* Start every major section on a new page */
+h1 {
+    page-break-before: always;
+}
+
+/* Keep the document title on the first page */
+h1:first-of-type {
+    page-break-before: auto;
+}
+
+/* Prevent headings from being stranded at the bottom of a page */
+h2,
+h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+}
+
+/* Keep headings together with the content that follows */
+h1,
+h2,
+h3 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* Keep images together where possible */
+img {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* Keep table rows together where possible */
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* Give major sections some breathing room */
+h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+/* Improve table readability */
+table {
+    page-break-inside: auto;
+}
+
+/* Avoid awkward paragraph splitting where possible */
+p {
+    orphans: 3;
+    widows: 3;
+}
