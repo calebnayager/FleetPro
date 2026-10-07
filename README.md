@@ -15,6 +15,14 @@ The project follows an end-to-end approach, beginning with the identification of
 
 The project is designed to demonstrate how business needs can be translated into system requirements and ultimately into a working software solution.
 
+
+## Business Analysis Documentation
+
+The complete Business Analysis case study is available as a downloadable PDF.
+
+📄 **[Download the Business Analysis Case Study (PDF)](Business%20Analysis/Business_Analysis_Master.pdf)**
+
+
 ---
 
 ## 2. Business Problem
