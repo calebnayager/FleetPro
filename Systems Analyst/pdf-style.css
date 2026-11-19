@@ -1,0 +1,120 @@
+
+/* =========================================
+   FleetPro Logistics
+   System Analysis PDF Styling
+   ========================================= */
+
+/* =========================================
+   MAJOR SECTION PAGE BREAKS
+   ========================================= */
+
+/* Start every major section on a new page */
+h1 {
+    page-break-before: always !important;
+    break-before: page !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+/* Keep the main document title on the first page */
+h1:first-of-type {
+    page-break-before: auto !important;
+    break-before: auto !important;
+}
+
+/* Prevent subsection headings from being stranded */
+h2,
+h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* =========================================
+   PREVENT AWKWARD PAGE BREAKS
+   ========================================= */
+
+/* Avoid unnecessary breaks immediately after headings */
+h1,
+h2,
+h3 {
+    page-break-after: avoid;
+}
+
+/* Keep paragraphs readable across pages */
+p {
+    orphans: 3;
+    widows: 3;
+}
+
+/* Allow tables to flow across pages */
+table {
+    page-break-inside: auto;
+}
+
+/* Keep individual table rows together */
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* =========================================
+   IMAGE AND DIAGRAM FORMATTING
+   ========================================= */
+
+/* General image formatting */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+/* =========================================
+   HEADING SPACING
+   ========================================= */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+   /* =========================================
+   LANDSCAPE DIAGRAM PAGES
+   ========================================= */
+
+@page landscape {
+    size: A4 landscape;
+    margin: 15mm;
+}
+
+.landscape-diagram {
+    page: landscape;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.landscape-diagram img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 180mm;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
