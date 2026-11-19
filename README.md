@@ -3,7 +3,7 @@
 ## Vehicle Maintenance Management System
 
 **Project Type:** Business Analysis + Systems Analysis + Software Development  
-**Project Status:** Business Analysis Complete — Systems Analysis In Progress
+**Project Status:** Business Analysis Complete — Systems Analysis Complete — System Design In Progress
 
 ---
 
@@ -16,12 +16,22 @@ The project follows an end-to-end approach, beginning with the identification of
 The project is designed to demonstrate how business needs can be translated into system requirements and ultimately into a working software solution.
 
 
+
 ## Business Analysis Documentation
 
 The complete Business Analysis case study is available as a downloadable PDF.
 
 📄 **[Download the Business Analysis Case Study (PDF)](Business%20Analysis/Business_Analysis_Master.pdf)**
 
+---
+
+## Systems Analysis Documentation
+
+The Systems Analysis documentation translates the identified business needs into structured system requirements, functional and non-functional requirements, user stories, use cases, data requirements and a data dictionary.
+
+The complete Systems Analysis documentation is available as a downloadable PDF.
+
+📄 **[Download the Systems Analysis Documentation (PDF)](Systems%20Analyst/System_Analysis_Master.pdf)**
 
 ---
 
